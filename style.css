@@ -1,0 +1,99 @@
+.main-section {
+    height: 100vh;
+    display: flex;
+}
+
+.first-div {
+    padding: 20px 10px;
+    /* padding-bottom: 100px; */
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.first-div img {
+    height: 60px;
+}
+
+.first-div button {
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    font-size: 12px;
+    transition: all ease-in-out 0.3s;
+}
+
+.first-div button:hover {
+    background-color: white;
+    color: black;
+}
+
+.third-div {
+    height: 100vh;
+    background-color: lightgrey;
+}
+
+.third-div .inner-section {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.third-div .inner-section .first-span {
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 600;
+    flex-direction: column;
+}
+
+.third-div .inner-section .first-span p {
+    margin-top: 5px;
+}
+
+.third-div .inner-section .second-span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-div .inner-section .second-span span {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.third-div .inner-section .second-span span {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.third-div .inner-section .third-span img {
+    height: 30px;
+}
+
+.third-div .inner-section .third-span {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.third-div .inner-section .third-span img:first-child {
+    margin-bottom: 15px;
+}
+
+.third-div .inner-section .third-span img:last-child {
+    margin-bottom: 15px;
+}
+
+
+/*  Responsive  */
+
+@media(max-width:768px){
+    
+}

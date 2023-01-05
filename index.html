@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrackJob</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <div class="container text-center main-section">
+        <div class="row">
+            <div class="first-div">
+                <img
+                    src="data:image/png;base64,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">
+
+                        
+                <button><i class="bi bi-person"></i>Profile</button>
+
+                <button>
+                    <i class="bi bi-file-bar-graph"></i>Overview</button>
+                <button>
+                    <i class="bi bi-calendar"></i>Calendar</button>
+                <button style="border-bottom: 1px solid gray;"><i class="bi bi-people-fill"></i>Team</button>
+                <button ><i class="bi bi-chat-dots"></i>Chat</button>
+                <button><i class="bi bi-gear"></i>Settings</button>
+                <span style="margin-top: 60px;">
+                    <button><i class="bi bi-box-arrow-right"></i>Log In</button>
+                </span>
+            </div>
+        </div>
+        <div class="col second-div" style="width: 100%;padding: 20px 20px;">
+
+            <div>
+                <span style="display: flex; justify-content: space-between;">
+                    <h1 style="font-size: 20px;">Overview</h1>
+                    <img style="height: 20px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI5vFX9tv64JjrobsjPi_62hz5WBWU0FXjfA&usqp=CAU">
+                </span>
+                <span style="display: flex;justify-content: space-between;flex-direction: column;text-align:start;padding: 10px 80px; background-color: black;height: 80px;width: 500px;margin-left: 130px;border-radius: 10px;color: white;">
+                    <h3 style="font-size: 20px;">Make Reak Work Happen!</h3>
+                    <p style="font-size: 13px;">Create your team,plan,collaborate,organize your work.</p>
+                </span>
+            </div>
+            <div>
+                <span style="display: flex;justify-content: space-between;margin-top: 10px;">
+                    <h3 style="font-size: 18px;">Projects</h3>
+                    <p style="font-size: 13px;">All project <i class="bi bi-arrow-right-short"></i></p>
+                </span>
+                <div class="container text-center">
+                    <div class="row" style="width: 700px;padding-left: -10px;margin-left:18px ;">
+                      <div class="col" style="border-radius: 13px;background-color: white;display: flex;justify-content: space-between;align-items: flex-start;flex-direction: column;height: 30vh;border: 1px solid gray;">
+                        <i  class="bi bi-infinity"></i>
+                        <h3 style="font-size: 18px;">Animations</h3>
+                        <p style="font-size: 13px;text-align: start;">Create loop animation <br> for image.</p>
+                        <p style="font-size: 13px;">View Details <i class="bi bi-arrow-right-short"></i> </p>
+                      </div>
+                      <div class="col" style="border-radius: 13px;background-color: white;display: flex;justify-content: space-between;align-items: flex-start;flex-direction: column;height: 30vh;border: 1px solid gray;">
+                        <i class="bi bi-brightness-low-fill"></i>
+                        <h3 style="font-size: 18px;">Illustrations</h3>
+                        <p style="font-size: 13px; text-align: start;">Create loop animation <br> for image.</p>
+                        <p style="font-size: 13px;">View details <i class="bi bi-arrow-right-short"></i></p>
+                      </div>
+                      <div class="col" style="border-radius: 13px;background-color: white;display: flex;justify-content: space-between;align-items: flex-start;flex-direction: column;height: 30vh;border: 1px solid gray;">
+                        <i class="bi bi-bricks"></i>
+                        <h3 style="font-size: 18px;">UI design</h3>
+                        <p style="font-size: 13px; text-align: start;">Create loop animation <br> for image.</p>
+                        <p style="font-size: 13px;margin-bottom: 20px;">View details <i class="bi bi-arrow-right-short"></i></p>
+                      </div>
+                      <div class="col" style="border-radius: 13px;background-color: white;display: flex;justify-content: space-between;align-items: flex-start;flex-direction: column;height: 30vh;border: 1px solid gray;">
+                        <i class="bi bi-diamond-fill"></i>
+                        <h3 style="font-size: 18px;">UX design</h3>
+                        <p style="font-size: 13px; text-align: start;">Create loop animation <br> for image</p>
+                        <p style="font-size: 13px;">View details <i class="bi bi-arrow-right-short"></i></p>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+            <div >
+                <span style="display: flex;justify-content: space-between;margin-top: 15px;font-size: 12px;">
+                    <h3 style="font-size: 18px;" >Task activity</h3>
+                    <p ><i class="bi bi-calendar"></i> Aug 7-Aug 14</p>
+                </span>
+
+                <img style="height: 68px;width: 720px;" src="./graph.PNG">
+            </div>
+        </div>
+        <div class="third-div" style="height: 100vh;width: 140px;">
+            <div class="inner-section">
+                <span class="first-span">
+                    <img style="height: 40px;"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIdgGN3xQ8LiTji9TxcFSXXQWq7XThvG5tvw&usqp=CAU">
+                    <p>Devon Lane</p>
+                </span>
+                <span class="second-span" style="flex-direction: column;margin-top: 40px;">
+                    <span>
+                        <i style="font-size: 23px;" class="bi bi-plus-circle-fill"></i>
+                        <p style="font-size: 11px;font-weight: 600;">Create <br> Project</p>
+                    </span>
+                    <span>
+                        <i class="bi bi-plus-circle" style="font-size: 23px;"></i>
+                        <p style="font-size: 11px;font-weight: 600;">Add new <br>task</p>
+                    </span>
+                </span>
+                <span class="third-span" style="margin-top: 30px;">
+                    <img
+                        src="data:image/jpeg;base64,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">
+                    <img style="height: 40px;"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRJ2V8Mgdoxst1ryhDV5KfIuF4bnuyg4ukxg&usqp=CAU">
+                    <i style="margin-top: 10px;font-size: 23px;" class="bi bi-plus-circle"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
